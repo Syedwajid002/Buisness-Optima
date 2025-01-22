@@ -73,7 +73,7 @@ const HorizontalBarChartWithFilters = () => {
   };
 
   return (
-    <div className="bg-white shadow-md rounded-lg pl-6 pt-2 w-full max-w-3xl mx-auto max-h-1/2 mb-4">
+    <div className="bg-white shadow-md rounded-lg pl-6 pt-2 w-full max-w-3xl mx-auto max-h-1/2 mb-4 h-[250px] mt-1">
       <div className="flex justify-between items-center">
         {/* Title */}
         <h2 className="text-lg font-semibold">Leads By Stage</h2>

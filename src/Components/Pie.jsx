@@ -12,7 +12,7 @@ defaults.plugins.title.color = "black";
 export const Pie = () => {
   return (
     <>
-      <div className="w-2/5 border p-6 ml-1">
+      <div className="w-2/5 border p-6 ml-1 shadow-md rounded-lg">
         <Doughnut
           data={{
             labels: data.map((data) => data.label),

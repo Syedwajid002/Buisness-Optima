@@ -16,7 +16,7 @@ const DashboardButtons = () => {
     { title: "Campaigns Feedback", id: 7 },
   ];
   return (
-    <div className="m-4 flex items-center justify-between px-2 ">
+    <div className="m-4 flex items-center justify-between px-2">
       {buttons.map((btn) => (
         <button
           className={`text-gray-800 font-normal px-4 py-2 rounded-sm ${

@@ -73,7 +73,7 @@ const WonDeals = () => {
   };
 
   return (
-    <div className="bg-white shadow-md rounded-lg pl-6 pt-2 w-full max-w-3xl mx-auto mb-4">
+    <div className="bg-white shadow-md rounded-lg pl-6 pt-2 w-full max-w-3xl mx-auto h-[250px]">
       <div className="flex justify-between items-center">
         {/* Title */}
         <h2 className="text-lg font-semibold">Won Deals Stage</h2>
@@ -92,7 +92,7 @@ const WonDeals = () => {
           <select
             value={timeRange}
             onChange={(e) => setTimeRange(e.target.value)}
-            className="border border-gray-300 rounded-md px-3 py-1.5 text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
+            className="border border-gray-300 rounded-md px-3 py-1.5  text-sm focus:outline-none focus:ring-1 focus:ring-blue-500"
           >
             <option>Last 3 Months</option>
             <option>Last 6 Months</option>

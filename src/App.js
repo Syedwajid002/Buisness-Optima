@@ -19,7 +19,7 @@ import { ChartExample } from './Components/AgCharts.jsx';
 
 function App() {
   return (
-    <>
+    <div className='bg-gray-50'>
     <Header/>
     <div className='flex'>
     <Sidebar/>
@@ -34,7 +34,7 @@ function App() {
     </div>
     <div className='flex w-full'>
       <div className='w-1/2 flex-col'>
-    <div className="flex justify-center align-middle w-full">
+    <div className="flex justify-center align-middle w-full space-x-2">
     {/* <RangeBarChart/> */}
     <ChartExample/>
     </div>
@@ -49,7 +49,7 @@ function App() {
     <div className="fixed left-4 bottom-5  w-[100px]">
         <img src={require("./Assets/bot.png")} />
       </div>
-    </>
+</div>
   );
 }
 
