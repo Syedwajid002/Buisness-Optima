@@ -21,8 +21,8 @@ const HorizontalBarChartWithFilters = () => {
       {
         label: "Leads By Stage",
         data: [500, 450, 200],
-        backgroundColor: "rgb(255, 99, 132)",
-        barThickness: 20,
+        backgroundColor: "red",
+        barThickness: 15,
         borderRadius: 2,
         borderSkipped: false,
       },
@@ -51,7 +51,7 @@ const HorizontalBarChartWithFilters = () => {
         ticks: {
           color: "gray",
           font: {
-            size: 12,
+            size: 10,
           },
         },
         grid: {
@@ -62,7 +62,7 @@ const HorizontalBarChartWithFilters = () => {
         ticks: {
           color: "black",
           font: {
-            size: 14,
+            size: 10,
           },
         },
         grid: {
@@ -73,7 +73,7 @@ const HorizontalBarChartWithFilters = () => {
   };
 
   return (
-    <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-3xl mx-auto max-h-1/2 mb-4">
+    <div className="bg-white shadow-md rounded-lg pl-6 pt-2 w-full max-w-3xl mx-auto max-h-1/2 mb-4">
       <div className="flex justify-between items-center">
         {/* Title */}
         <h2 className="text-lg font-semibold">Leads By Stage</h2>
@@ -102,7 +102,7 @@ const HorizontalBarChartWithFilters = () => {
       </div>
 
       {/* Bar Chart */}
-      <div className="h-64">
+      <div className="h-56  ">
         <Bar data={data} options={options} />
       </div>
     </div>

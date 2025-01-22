@@ -23,7 +23,7 @@ const WonDeals = () => {
         data: [300, 220, 380],
         backgroundColor: "rgb(116,195,116)", // Red bars
         borderRadius: 3,
-        barThickness: 20,
+        barThickness: 15,
         borderSkipped: false,
       },
     ],
@@ -51,7 +51,7 @@ const WonDeals = () => {
         ticks: {
           color: "gray",
           font: {
-            size: 12,
+            size: 10,
           },
         },
         grid: {
@@ -62,7 +62,7 @@ const WonDeals = () => {
         ticks: {
           color: "black",
           font: {
-            size: 14,
+            size: 10,
           },
         },
         grid: {
@@ -73,7 +73,7 @@ const WonDeals = () => {
   };
 
   return (
-    <div className="bg-white shadow-md rounded-lg p-6 w-full max-w-3xl mx-auto mb-4">
+    <div className="bg-white shadow-md rounded-lg pl-6 pt-2 w-full max-w-3xl mx-auto mb-4">
       <div className="flex justify-between items-center">
         {/* Title */}
         <h2 className="text-lg font-semibold">Won Deals Stage</h2>
@@ -102,7 +102,7 @@ const WonDeals = () => {
       </div>
 
       {/* Bar Chart */}
-      <div className="h-64">
+      <div className="h-56">
         <Bar data={data} options={options} />
       </div>
     </div>

@@ -4,6 +4,10 @@
   "private": true,
   "dependencies": {
     "@amcharts/amcharts5": "^5.10.11",
+    "@canvasjs/react-charts": "^1.0.2",
+    "ag-charts-enterprise": "^11.0.4",
+    "ag-charts-react": "^11.0.4",
+    "canvasjs": "^1.8.3",
     "canvasjs-react-charts": "^1.0.5",
     "chart.js": "^4.4.7",
     "chartjs-plugin-datalabels": "^2.2.0",

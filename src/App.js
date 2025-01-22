@@ -13,6 +13,8 @@ import FunnelChart from './Components/Inverted.jsx';
 import InvertedChart from './Components/NewInverted.jsx';
 import FunnelBarGraph from './Components/Inverted.jsx';
 import Example from './Components/Example.jsx';
+import RangeBarChart from './Components/NewInverted.jsx';
+import { ChartExample } from './Components/AgCharts.jsx';
 
 
 function App() {
@@ -32,13 +34,12 @@ function App() {
     </div>
     <div className='flex w-full'>
       <div className='w-1/2 flex-col'>
-    <FunnelBarGraph/>
     <div className="flex justify-center align-middle w-full">
-    <InvertedChart/>
+    {/* <RangeBarChart/> */}
+    <ChartExample/>
     </div>
-    <Example/>
     </div>
-      <div className='w-1/2'>
+      <div className='w-1/2 h-full'>
     <HorizontalBarChart/>
     <WonDeals/>
     </div>
