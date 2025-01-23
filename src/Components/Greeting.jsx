@@ -18,7 +18,8 @@ const Greeting = () => {
             id="Company"
             className="text-red-600 px-8 py-2 font-semibold rounded-md font-medium"
           >
-            <option value="Companies">Companies</option>
+            <option value="Companies">Buisness Optima</option>
+            <option value="Companies">MarcomUSA</option>
           </select>
           <button className="bg-gray-100 bg-opacity-30 text-white font-medium px-8 py-2 rounded-lg shadow-lg mr-8 ml-2">
             All packages

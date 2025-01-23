@@ -9,6 +9,9 @@ const Recent = () => {
           <div className="flex justify-center items-center gap-2">
             <select name="" id="" className="w-32 border p-1 rounded">
               <option value="7">Last 7 days</option>
+              <option value="7">Last month</option>
+              <option value="7">Last 3 months</option>
+              <option value="7">Last year</option>
             </select>
             <button className="p-1 px-4 bg-red-700 rounded-md w-max text-white">
               Add Project
