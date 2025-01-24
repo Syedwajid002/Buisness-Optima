@@ -1,7 +1,8 @@
 import React from "react";
 import { Home } from "lucide-react";
-
+import { useNavigate } from "react-router-dom";
 const Sidebar = () => {
+  const navigate = useNavigate();
   return (
     <aside className="w-20 bg-white border-r border-gray-200 flex flex-col items-center py-6">
       <div className="flex flex-col space-y-8">
@@ -11,6 +12,18 @@ const Sidebar = () => {
           alt=""
         />
         <Home className="w-6 h-6 text-red-600" />
+        <button
+          onClick={() =>
+            (window.location.href =
+              "https://businessoptima.app.n8n.cloud/webhook/bc6900c1-2e49-47fc-bc84-d5699bc11e60/chat")
+          }
+        >
+          <img
+            src={require("../Assets/SideBar/profile@2x.png")}
+            className="w-6 h-6"
+            alt=""
+          />
+        </button>
         <img
           src={require("../Assets/SideBar/Frame.png")}
           className="w-6 h-6"
@@ -66,11 +79,6 @@ const Sidebar = () => {
           className="w-6 h-6"
           alt=""
         />{" "}
-        <img
-          src={require("../Assets/SideBar/profile@2x.png")}
-          className="w-6 h-6"
-          alt=""
-        />
         <img
           src={require("../Assets/SideBar/book.png")}
           className="w-6 h-6"
